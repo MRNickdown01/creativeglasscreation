@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.product-main-section{
+  background-color: #888888;
+}
+.product-main{
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+
+/* values section */
+.values h1{
+    font-size: 48px;
+    font-family: 'Montserrat',sans-serif;
+    text-align: center;
+    background-color: #f6f7f8;
+    padding-top: 130px;
+    color: #5e7b89;
+    margin-bottom: 0 !important;
+}
+
+.value-card{
+    padding-top: 30px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    background-color:#f6f7f8;
+
+}
+.value-box{
+    padding-top: 50px;
+    background:#c0e3ee;
+    margin: 25px;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    box-shadow: 5px 10px 8px #888888;
+}
+
+.value-box h4{
+    padding: 10px;
+    text-align: center;
+    font-family: 'Montserrat',sans-serif;
+}
+
+.value-box p{
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Montserrat',sans-serif;
+}
+/* Product SECTION */
+/* .product-card1, .product-card2, .product-card3,.product-card4{
+  display: flex;
+} */
+.product-main1{
+    position: relative;
+    z-index: -1;
+  }
+  .product_image{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/contact.jpg);
+    height:400px;
+    background-size:cover;
+    background-position: center;
+  }
+  .product_heading1{
+    color: #fff;
+    transform: translateY(117px);
+    text-align: center;
+  }
+
+  .product_heading1 > h3{
+    font-size: 48px;
+    font-family: 'Martel', serif;
+    font-weight: 700;
+  }
+  .product_heading1 > h5{
+      font-size: 25px;
+      color: #fff;
+      font-family: 'Montserrat',sans-serif;
+  }
+
+.category-main h3{
+    padding: 10px;
+}
+
+.category-main > img{
+    width: 100%;
+    height: 350px;
+    box-shadow: 5px 10px 8px #111111;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.main-part1 > a > img{
+    display: block;
+    width: 380px;
+    height: 350px;
+    box-shadow: 5px 10px 8px #111111;
+    border-radius: 10px;
+}
+.main-part2 > a > img{
+    display: block;
+    width: 380px;
+    height: 350px;
+    box-shadow: 5px 10px 8px #111111;
+    border-radius: 10px ;
+}
+.main-part3 > a > img{
+    display: block;
+    width: 380px;
+    height: 350px;
+    box-shadow: 5px 10px 8px #111111;
+    border-radius: 10px;
+}
+
+.product-card1, .product-card2, .product-card3, .product-card4{
+    padding-bottom: 50px;
+
+}
+.main-part2{
+    position: relative;
+    padding: 0;
+}
+
+.main-part1 {
+    position: relative;
+    padding: 0;
+  }
+.main-part3 {
+    position: relative;
+    padding: 0;
+  }
+  
+  
+  .overlay  {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: transparent;
+    overflow: hidden;
+    width: 380px;
+    height: 0;
+    transition: .5s ease;
+    background-color: rgb(41, 41, 41);
+  }
+  
+  .main-part1:hover .overlay {
+    height: 100%;
+    padding: 0 !important;
+    border-radius: 10px;
+    opacity: 0.7;
+  }
+  .main-part2:hover .overlay {
+    height: 100%;
+
+    border-radius: 10px;
+    opacity: 0.7;
+  }
+  .main-part3:hover .overlay {
+    height: 100%;
+    border-radius: 10px;
+    opacity: 0.7;
+  }
+  
+  .product-text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    padding-top: 100px;
+    text-align: center;
+  }
+
+
+  @media screen and (max-width:1024px) {
+    .main-part1 > a> img, .main-part2 > a > img, .main-part3 > a > img{
+      width: 300px;
+    }
+    .overlay{
+      width: 300px;
+    }
+  }
+  @media screen and (max-width:768px) {
+    .main-part1 > a > img, .main-part2 > a > img, .main-part3 > a > img{
+      width: 230px;
+      height: 280px;
+    }
+    .overlay{
+      width: 232px !important;
+    }
+    .product-text > p{
+      font-size: 15px;
+    }
+    .value-card{
+      flex-wrap: wrap;
+    }
+    .values h1{
+      padding-top: 90px;
+    }
+  }
+  @media screen and (max-width:468px) {
+    .product-main{
+      margin: 0px 68px;
+    }
+    .main-part1, .main-part2, .main-part3{
+      margin-bottom: 25px;
+    }
+    .product-card1, .product-card2, .product-card3, .product-card4{
+      padding-bottom: 0;
+    }
+    .main-part1 > a > img, .main-part2 > a > img, .main-part3 > a > img{
+      width: 280px;
+      height: 300px;
+    }
+    .overlay{
+      width: 280px !important;
+    }
+  } 
+
+  @media screen and (max-width:395px) {
+    .product-main{
+      margin: 0px 46px;
+    }
+  }

@@ -1,0 +1,343 @@
+.contact-main{
+    position: relative;
+    z-index: -1;
+}
+.contact_image{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/contact.jpg);
+    height:400px;
+    background-size:cover;
+    background-position: center;
+}
+.contact_heading{
+    color: #fff;
+    transform: translateY(117px);
+    text-align: center;
+}
+
+.contact-form-main{
+    display: flex;
+    background-color: #60c3af;
+}
+
+.contact-img > img{
+    width: 720px;
+    height: 400px;
+}
+.contact_heading > h3{
+  font-size: 48px;
+  font-family: 'Martel', serif;
+  font-weight: 700;
+}
+.contact_heading > h5{
+    font-size: 25px;
+    color: #fff;
+    font-family: 'Montserrat',sans-serif;
+}
+llottie-player{
+    padding-top: 40px !important;
+}
+.contact-map-1{
+   padding-top: 50px;
+   padding-bottom: 50px;
+
+}
+.contact-info{
+    background-color:#f6f7f8a8 ;
+}
+.contact-heading-1,.contact-head-2{
+    color:#50aab2 !important ;
+}
+.contact-heading-2,.contact-head-3{
+    font-size: 55px;
+    font-weight: 700;
+}
+.contact-card-part{
+    width: 25%;
+    height:200px;
+    float: left;
+    padding: 0px 20px;
+}
+.contact-card-part-1 > img{
+    width: 50px;
+}
+.contact-card-part-1 > p{
+    font-size: 15px;
+    padding-top: 10px;
+}
+.contact-carding{
+    margin: 25px -5px;
+    display: flex;
+    justify-content: center;
+}
+.contact-carding::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.contact-card-part-1{
+    padding: 16px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding-top: 50px;
+    min-height: 250px;
+}
+.contact-card-part-1 > h6{
+font-size: 20px;
+padding-top: 15px;
+text-transform: capitalize;
+}
+.contact-form{
+    padding-top: 25px;
+    max-width: 650px;
+    margin: 50px auto;
+    position: relative;
+    box-shadow: 0 10px 30px 0px rgb(0 0 0 / 10%);
+    padding-bottom: 17%;
+    border-radius: 17px;
+    background-color: white;
+}
+.contact-form h5{
+    color:#50aab2;
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.get-in-touch{
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+}
+.contact-form-1,.form-field{
+    position: relative;
+    margin: 30px 0;
+}
+.contact-form-1{
+    padding-top: 40px;
+}
+.contact-card-part-1 > p{
+    margin-bottom: 0;
+}
+.contact-form-1,.input-text{
+    display: block;
+    width: 95%;
+    height: 36px;
+    border-width: 0 0 2px 0;
+    border-color: #50aab2;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+}
+.contact-form-1,.input-text:focus + .label,
+.contact-form-1,.input-text.not-empty + label{
+    transform: translateY(-24px);
+}
+.contact-form-1,.input-text:focus{
+    outline: none;
+}
+
+
+.contact-form-1,.label{
+    position: relative;
+    left: 20px;
+    bottom: 30px;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    color: gray;
+    cursor:text;
+    text-transform: capitalize;
+    transition: transform 0.2s ease-in-out;
+    
+}
+.submit-btn{
+    display: inline-block;
+    color: black;
+    background-image: linear-gradient(125deg,gray,#50aab2);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
+    padding: 8px 16px;
+    border: none;
+    width: 200px;
+    cursor: pointer;
+    box-shadow: 5px 10px 8px #888888;
+    
+}
+.submit-btn:hover{
+    transition: 0.2s ease-in-out;
+    background-image: linear-gradient(125deg,#50aab2,gray );
+    color: #fff;
+}
+
+
+@media screen and (max-width:1024px) {
+    lottie-player{
+        width: 250px !important;
+        height: 280px !important;
+        top: 12% !important;
+    }
+    
+    .contact-card-part-1 > h6 {
+        padding-left: 21px;
+    }    
+
+    .contact-form {
+        padding-bottom: 26%;
+        max-width: 490px;
+
+    }
+    .contact-img > img{
+    width: 100%;
+    height: 400px;
+    }
+    .contact-card-part {
+        width: 30%;
+}
+}
+    @media screen and (max-width:768px){
+        .contact-card-part {
+            width: 40%;
+        }
+    
+.contact-form{
+max-width: 360px !important;
+}
+
+.contact-img > img {
+    width: 446px;
+}
+        .contact-card-part-1 > p {
+            font-size: 14px;
+            padding-top: 8px;
+        }
+    
+        .contact-card-part-1 > img {
+            width: 45px;
+        }
+    
+        .contact-heading-2, .contact-head-3 {
+            font-size: 50px;
+        }
+        .contact-form{
+            padding-bottom: 36%;
+            max-width: 650px;
+        }
+    }
+    
+    @media screen and (max-width:425px){
+        .contact_heading > h3 {
+            font-size: 35px;
+        }
+        .contact_heading > h5 {
+            font-size: 20px;
+        }
+
+        .contact-form-main{
+            flex-direction: column;
+        }
+    
+        lottie-player {
+            width: 188px !important;
+            height: 260px !important;
+            top: 41% !important;
+        }
+    
+        .contact-heading-2, .contact-head-3 {
+            font-size: 40px;
+        }
+    
+        .fs-6 {
+            font-size: 15px!important;
+        }
+    
+        .contact-card-part {
+            width: 100%;
+        }
+    
+        .contact-card-part-1{
+            /* padding-top: 15px; */
+            padding: 26px;
+            min-height: 200px;
+        }
+    
+        .contact-card-part-1 > img {
+            width: 40px;
+        }
+    
+        .contact-card-part-1 > h6 {
+            padding-left: 5px;
+            text-align: center;
+        }
+    
+        .contact-card-part-1 > pre {
+            font-size: 12px;
+        }
+    
+        .contact-info{
+            padding-top: 30px !important;
+            padding-bottom: 0px !important; 
+        }
+    
+        .get-in-touch {
+            font-size: 40px;
+        }
+    
+        .contact-form h5 {
+            font-size: 15px;
+            font-weight: bold;
+        }
+
+        .contact-form {
+            padding-bottom: 59%;
+            max-width: 420px;
+            margin: 50px;
+        }
+        .contact-carding{
+            flex-wrap: wrap;
+        }
+    
+        
+    }
+    
+    
+    @media screen and (max-width:375px){
+        .contact-heading-2, .contact-head-3 {
+            font-size: 34px;
+        }
+    
+        .contact-card-part-1 > img {
+            width: 35px;
+        }
+    
+        .contact-card-part-1 > h6{
+            font-size: 17px;
+    
+        }
+    
+        .contact-card-part-1 > p{
+            padding-top: 0 !important;
+        }
+    
+        .contact-form{
+            padding-top: 0% !important;
+        }
+    
+        .get-in-touch {
+            font-size: 34px;
+        }
+    
+        .submit-btn{
+            width: 160px;
+        }
+
+        .contact-form {
+            padding-top: 8% !important;
+            padding-bottom: 65%;
+            margin: 30px;
+
+        }
+    }
+
+    .contact-all-screen{
+        overflow-x: hidden;
+    }

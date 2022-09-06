@@ -1,0 +1,78 @@
+.hardware{
+  background-color: #4a4b4b;
+  padding-bottom: 50px;
+
+}
+.hardware-main{
+  position: relative;
+  z-index: -1;
+}
+.hardware_image{
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/banner-10\ \(2\).jpg);
+  height:400px;
+  background-size:cover;
+  background-position: center;
+}
+.hardware_heading{
+  color: #fff;
+  transform: translateY(117px);
+  text-align: center;
+}
+.hardware_heading > h3{
+  font-size: 48px;
+  font-family: 'Martel', serif;
+  font-weight: 700;
+}
+.hardware_heading > h5{
+    font-size: 25px;
+    color: #fff;
+    font-family: 'Montserrat',sans-serif;
+}
+.hardware-card-animation {
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+}
+@media screen and (max-width:1024px) {
+  .hard-ware{
+   width: 228px !important;
+   height: 335px !important;
+  }
+  .hard-ware > img{
+   width: 228px;
+   height: 335px;
+  }
+  .hardware-card{
+   flex-wrap: nowrap;
+  }
+  .hardware-card{
+   gap: 15px;
+
+  }
+  .hard-p{
+    transform: translate(0 , 0);
+    padding-top: 200px;
+  }
+}
+@media screen and (max-width:768px) {
+   .hard-ware{
+    width: 228px !important;
+    height: 335px !important;
+   }
+   .hard-ware > img{
+    width: 228px;
+    height: 335px;
+   }
+   .hardware-card{
+    flex-wrap: nowrap;
+   }
+   .hardware-card{
+    gap: 15px;
+
+   }
+}
+@media screen and (max-width:468px) {
+  .hardware-card{
+    flex-wrap:wrap;
+   }
+}
